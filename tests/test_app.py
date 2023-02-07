@@ -6,5 +6,4 @@ sys.path.append(topdir)
 
 
 def test_index():
-    assert index() == 'Hello, World!'
-print(os.getcwd())
+    assert index() == 'Hello, World!',"index comparison failed"
